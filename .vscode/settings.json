@@ -1,0 +1,56 @@
+{
+    "keyboard.layout": "de",
+    "editor.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 1.8,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Maple Mono NF, 'Maple Mono', Hack Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    // "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.linting.enabled": true,
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.intellisense.citation.backend": "biblatex",
+    "latex-workshop.latex.outDir": "/workspaces/reproducible-research/manuscript/out",
+    "latex-workshop.view.pdf.color.dark.backgroundColor": "#000000",
+    "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#000000",
+    "latex-workshop.view.pdf.color.light.backgroundColor": "#000000",
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.bibtex-format.sort.enabled": true,
+    "latex-workshop.intellisense.citation.filterText": [
+        "title",
+        "other fields"
+    ],
+    "workbench.colorTheme": "Catppuccin Noir High Contrast",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.editor.showTabs": "none",
+    // "workbench.layoutControl.enabled": false,
+    // "workbench.editor.editorActionsLocation": "hidden",
+    // "window.commandCenter": false,
+    "breadcrumbs.enabled": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [
+        {
+            "path": "",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "terminal.integrated.fontLigatures.enabled": true,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "statusbartext": {
+        "active": true,
+        "text": "Duanghathai's workspace 💅🏻"
+    },
+    "problems.showCurrentInStatus": true,
+    "git.blame.statusBarItem.enabled": false,
+    "git.enableStatusBarSync": false,
+    "git.enabled": true,
+    "debug.showInStatusBar": "never",
+    "latex-workshop.latex.build.rootfileInStatus": true
+}

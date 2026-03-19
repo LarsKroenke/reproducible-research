@@ -43,10 +43,6 @@
         "markdown": false,
         "scminput": false
     },
-    "statusbartext": {
-        "active": true,
-        "text": "Duanghathai's workspace 💅🏻"
-    },
     "problems.showCurrentInStatus": true,
     "git.blame.statusBarItem.enabled": false,
     "git.enableStatusBarSync": false,

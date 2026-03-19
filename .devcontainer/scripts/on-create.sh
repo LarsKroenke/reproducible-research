@@ -6,8 +6,8 @@ sudo apt-get install -y \
   texlive \
   texlive-science \
   texlive-latex-extra \
-  texlive-publisher \
   texlive-bibtex-extra \
+  texlive-publishers \
   biber \
   latexmk \
   texlive-lang-german \
@@ -21,13 +21,6 @@ sudo apt-get install -y \
   curl \
   file \
   git
-
-# NONINTERACTIVE=1 CI=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"' >> /home/codespace/.bashrc
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
-
-# brew install --cask font-maple-mono
 
 python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip ipykernel
